@@ -132,7 +132,9 @@ test_suite(
 
 test_suite(
     name = "cit_tests",
-    tests = [
+    tests =
+    [
+        
         "//tests/test_cases:cit_cpp",
         "//tests/test_cases:cit_rust",
     ],
